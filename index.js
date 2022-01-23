@@ -7,5 +7,5 @@ function togleAddToDo() {
 }
 
 function showItems() {
-    todoList.forEach(el => document.write(el))
+    todoList.forEach(el => document.write(`<br>${el}\n</br>`))
 }
