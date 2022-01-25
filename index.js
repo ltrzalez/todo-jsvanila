@@ -1,5 +1,5 @@
 class Todo  {
-    static count = 1;
+    static count = 0;
 
     constructor(task){
         this.id = ++this.constructor.count;  
