@@ -8,10 +8,27 @@
 </head>
 <body>
     <header>
-        <h1>Lista de Tareas</h1>
-        <button onclick="togleAddToDo()">Agregar tarea</button>
-        <button onclick="showItems()">Refresh</button>
+        <form id="form">
+            <h1>Nueva tarea</h1>
+            <input type="text" name="" id="input" placeholder="Ej.: Pasear al perro" autofocus>
+            <button type="submit">TO DO!</button>
+        </form>
     </header>   
+
+    
+        <div id="todoList">
+            <!-- <button onclick="addToDo()">Agregar tarea</button>
+            <button onclick="showItems()">Refresh</button> -->
+        </div>
+    
+
+    <template id="todoItem">
+            <h2 id="idid"></h2>
+            <p id="task"></p>
+            <i>borrame</i>        
+            <i>editame</i>        
+    </template>
+
     <script src="index.js"></script>
 </body>
 </html>
